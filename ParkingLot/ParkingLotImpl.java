@@ -155,8 +155,8 @@ class Spot{
 class ParkingLot{
     ArrayList<Spot>twoWheelerSpots;
     ArrayList<Spot>fourWheelerSpots;
-    int costTwoWheeler = 30;
-    int costFourWheeler =50;
+    int costTwoWheeler ;
+    int costFourWheeler ;
     static ParkingLot instance;
     static SpotManager spotManager;
     static PaymentManager paymentManager;
